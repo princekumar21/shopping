@@ -1,0 +1,14 @@
+.fetauredProducts{
+    margin: 100px 200px;
+
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bottom{
+        display: flex;
+       justify-content: center;
+       gap: 20px;
+    }
+}
