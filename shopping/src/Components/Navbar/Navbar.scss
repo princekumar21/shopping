@@ -1,0 +1,37 @@
+.navbar{
+    height: 60px;
+    background-color: #faf9f8;
+
+    .wrapper{
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .items{
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+
+        }
+        .left{
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+        .center{
+            display: flex;
+            align-items: center;
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            .icons{
+                display: flex;
+                gap: 15px;
+            }
+        }
+    }
+}

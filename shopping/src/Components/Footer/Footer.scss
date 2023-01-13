@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #faf9f8;
+  .top {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-around;
+
+    .left {
+      display: flex;
+      
+      align-items: center;
+      .logo{
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .copyright{
+       
+        font-size: 12px;
+      }
+    }
+    .right{
+        .img{
+            height: 50px;
+        }
+    }
+    
+  }
+}
