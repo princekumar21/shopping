@@ -1,0 +1,40 @@
+.category {
+  display: flex;
+  height: 80vh;
+  margin: 100px 200px;
+  gap: 10px;
+  .col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .row {
+      flex: 1;
+      display: flex;
+      position: relative;
+
+      .product-img {
+        
+        z-index: 1;
+      }
+      .img-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+        margin: auto;
+      }
+      img{
+        width: 100%;
+        height : 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .col-l {
+    flex: 2;
+  }
+}

@@ -39,7 +39,7 @@ body {
   padding: 10px 30px;
   display: inline-block;
   color: #000;
-  margin-top: 15px;
+  margin-top: 15px
 }
 
 .w-100 {
@@ -212,7 +212,7 @@ body {
   }
   .carousel-indicators {
     margin-left: 0% !important;
-    justify-content: flex-start !important;
+    justify-content: flex-end !important;
     left: 10.8%;
   }
   .mainContainerSlider {
